@@ -1,0 +1,239 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Portfolio website
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    background-color: #000000;
+    color: #ffffff;
+   }
+   .ferrari-red {
+    color: #dc0000;
+   }
+   .bg-ferrari-red {
+    background-color: #dc0000;
+   }
+   .ferrari-yellow {
+    color: #ffce00;
+   }
+   .bg-ferrari-yellow {
+    background-color: #ffce00;
+   }
+   h1,
+   h2,
+   h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+   }
+   nav a:hover {
+    color: #dc0000;
+   }
+   button:hover {
+    background-color: #b30000;
+   }
+   a:hover {
+    color: #dc0000;
+    text-decoration: underline;
+   }
+  </style>
+ </head>
+ <body class="bg-black text-white">
+  <header class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto sticky top-0 bg-black z-50 border-b border-gray-800">
+   <div class="flex items-center space-x-2">
+    <a href="#home-section" aria-label="Go to Home Section">
+     <img alt="Ferrari Logo, a red prancing horse emblem on a yellow shield background" class="h-16 w-auto cursor-pointer" src="kuda 2.png"/>
+    </a>
+   </div>
+   <nav class="hidden md:flex space-x-8 text-sm font-semibold">
+    <a class="cursor-pointer transition-colors duration-300" href="#home-section">
+     Home
+    </a>
+    <a class="cursor-pointer transition-colors duration-300" href="#about-section">
+     About Me
+    </a>
+    <a class="cursor-pointer transition-colors duration-300" href="#pencapaian-section">
+     Achivement
+    </a>
+    <a class="cursor-pointer transition-colors duration-300" href="#social-media-section">
+     Social Media
+    </a>
+    <a class="cursor-pointer transition-colors duration-300" href="#inspired-section">
+     Inspired
+    <a class="cursor-pointer transition-colors duration-300" href="#social-media-section">
+     Social Media
+    </a>
+   </nav>
+   <a href="https://www.ferrari.com/en-ID" target="_blank" rel="noopener noreferrer" class="hidden md:block bg-ferrari-red text-white text-sm font-semibold rounded-full px-5 py-2 transition inline-block text-center">
+    Ferrari
+   </a>
+  </header>
+  <main class="max-w-7xl mx-auto px-6">
+   <section class="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-0 pt-20 md:pt-32" id="home-section">
+    <div class="flex-1 max-w-md md:max-w-lg">
+     <p class="text-ferrari-yellow text-xs mb-2 tracking-widest uppercase font-semibold">
+      Hello, my name is
+     </p>
+     <h1 class="text-white font-extrabold text-4xl md:text-5xl mb-2 leading-tight tracking-wide">
+      Ichlasul Amal
+     </h1>
+     <p class="text-white font-semibold mb-6 tracking-wide">
+      I'm a 9th-grade student at SMPIT Fitrah Hanniah.
+     </p>
+     <form class="flex flex-col max-w-xs mb-6" id="nameForm" onsubmit="return false;">
+      <input aria-label="Your Name" class="mb-2 px-3 py-2 text-black text-sm rounded-sm border border-gray-300 focus:outline-none" id="nameInput" placeholder="Your Name" type="text"/>
+      <button class="bg-ferrari-red text-white text-xs font-semibold px-3 py-1 rounded-sm w-24 transition" id="submitBtn" type="submit">
+       Lanjutkan
+      </button>
+     </form>
+     <ul class="list-disc list-inside text-white text-sm font-normal space-y-1" id="nameList">
+     </ul>
+    </div>
+    <div class="flex-1 flex justify-center md:justify-end">
+     <img alt="mukaa" class="max-w-full h-auto rounded-md border-4 border-ferrari-red" height="500" src="icas.jpeg" width="400"/>
+    </div>
+   </section>
+   <section class="pt-32 pb-20 max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-12" id="about-section">
+    <div class="flex-1 max-w-4xl">
+     <h2 class="text-white font-extrabold text-3xl mb-6 tracking-wide">
+      About Me
+     </h2>
+     <p class="text-ferrari-yellow text-base leading-relaxed whitespace-pre-line tracking-wide">
+      Ichlasul Amal
+📅 Born: 18 Mei 2010 | Certified Tifosi 🏎
+Hobi: Nonton F1, main Valorant & CS:GO
+Sekarang sekolah di SMPIT Fitrah Hanniah, besok otw SMAN 2 Tambun Selatan.
+
+
+     </p>
+    </div>
+    <div class="flex-1 flex justify-center md:justify-end">
+     <img alt="Side view of a red Ferrari Formula 1 racing car with black and yellow Pirelli tires, detailed sponsor logos including Shell, Santander, AWS, and Richard Mille, on a black background" class="max-w-full h-auto rounded-md border-4 border-ferrari-red" height="400" src="FERRARI F1.png" width="800"/>
+    </div>
+   </section>
+   <section class="pt-20 pb-20 max-w-4xl mx-auto" id="pencapaian-section">
+    <h2 class="text-white font-extrabold text-3xl mb-8 tracking-wide">
+     Achivement
+    </h2>
+    <article class="mb-8">
+     <h3 class="text-ferrari-red font-semibold text-xl mb-2 tracking-wide">
+      • JUARA 2 PARADE DEFILE KATEGORI SELANG SEKAR TINGKAT KAB. BEKASI
+     </h3>
+     <p class="text-gray-300 text-sm leading-relaxed whitespace-pre-line tracking-wide">
+      Saya bersama rekan rekan saya mengikuti lomba parade defile dalam rangka HUT
+      Pramuka Ke-61 Tingkat Kabupaten Bekasi Tahun 2024, Rabu (14/8). Saya sebagai
+      danton dari pangkalan SMPIT Fitrah Hanniah bersama rekan rekan saya
+      Alhamdulillah mendapatkan JUARA 2 PARADE DEFILE KATEGORI SELANG SEKAR TINGKAT
+      KAB. BEKASI, SMPIT Fitrah Hannian mendapatkan nomor peserta G.013, kita sudah
+      bersiap adri tanggal 13 Agustus 2024, 1 hari sebelum Acara untuk melakukan
+      Gladi bersama seluruh peserta Lomba Defile.
+     </p>
+    </article>
+    <article class="mb-8">
+     <h3 class="text-ferrari-red font-semibold text-xl mb-2 tracking-wide">
+      • JUARA 3 HARAPAN PERINTIS PASKIBRA TINGKAT PULAU JAWA
+     </h3>
+     <p class="text-gray-300 text-sm leading-relaxed whitespace-pre-line tracking-wide">
+      Alhamdulillah SMPIT Fitrah Hanniah berkesempatan mengikuti Lomba PASKIBRA
+      yang diadakan oleh Akademi Maritim Cirebon yang berlokasi di Kaliabang Tengah,
+      Kec. Bekasi Utara, Perlombaan dimulai pada tanggal 12 Oktober, Alhamdulillah
+      saya sebagai Danton dan rekan rekan saya mendapatkan JUARA 3 HARAPAN PERINTIS
+      TINGKAT PULAU JAWA, yeyy.
+     </p>
+    </article>
+    <article>
+     <h3 class="text-ferrari-red font-semibold text-xl mb-2 tracking-wide">
+      • JUARA HARAPAN 1 CINEMATOGRAPHY AMFEST
+     </h3>
+     <p class="text-gray-300 text-sm leading-relaxed whitespace-pre-line tracking-wide">
+      Saya dan teman-teman saya baru saja meraih prestasi yang membanggakan dengan
+      memenangkan Juara Harapan 1 dalam lomba Cinematography di ajang AMFEST (Al
+      Muslim Festival) yang diselenggarakan di SMA Al Muslim Bekasi. Pengumuman
+      pemenang dilaksanakan pada tanggal 26 Oktober. Pengalaman ini sangat berkesan
+      dan tak terlupakan bagi kami. Kami bekerja keras sebagai tim, mulai dari
+      proses brainstorming ide, pengambilan gambar, hingga proses editing film
+      pendek kami.
+     </p>
+    </article>
+   </section>
+   <section class="pt-20 pb-20 max-w-4xl mx-auto" id="inspired-section">
+    <h2 class="text-white font-extrabold text-3xl mb-8 tracking-wide">
+     People who inspire me
+    </h2>
+    <div class="flex flex-col md:flex-row items-center gap-8 mb-12">
+     <img alt="Two Formula 1 drivers standing side by side: Carlos Sainz on the left wearing a red Ferrari race suit holding his helmet under his arm, and Charles Leclerc on the right also in a red Ferrari race suit holding his helmet, with a racetrack background" class="w-full md:w-2/3 rounded-md border-4 border-ferrari-red" height="400" src="1123.jpg" width="800"/>
+    </div>
+    <div class="flex flex-col md:flex-row gap-12">
+     <article class="flex-1">
+      <h3 class="text-ferrari-yellow text-2xl font-semibold mb-2">
+       <a class="hover:text-ferrari-red transition" href="https://www.instagram.com/carlossainz55/" rel="noopener noreferrer" target="_blank">
+        Carlos Sainz
+       </a>
+      </h3>
+      <p class="text-gray-300 text-base leading-relaxed tracking-wide">
+       Carlos Sainz itu tipe orang yang butuh duet bagus, meskipun P8 pas debut di GP Bahrain 2021 at least dia dapet poin buat ferrari #gerobak, tapi sekarang uda di Williams-Mercedes mala jadi butut #gamonsmferrari
+      </p>
+     </article>
+     <article class="flex-1">
+      <h3 class="text-ferrari-yellow text-2xl font-semibold mb-2">
+       <a class="hover:text-ferrari-red transition" href="https://www.instagram.com/charles_leclerc/" rel="noopener noreferrer" target="_blank">
+        Charles Leclerc
+       </a>
+      </h3>
+      <p class="text-gray-300 text-base leading-relaxed tracking-wide">
+       Charles Leclerc itu salah satu Rookie (sekarang udah kaga) yang bener-bener setia satu hati sama Ferrari (udah mendarah daging) dari pas first debut race di GP Australia 2019, dateng jadi rookie pulang jadi gerobak.
+      </p>
+     </article>
+    </div>
+   </section>
+   <section class="pt-20 pb-20 max-w-4xl mx-auto" id="social-media-section">
+    <h2 class="text-white font-extrabold text-3xl mb-8 tracking-wide">
+     Social Media
+    </h2>
+    <ul class="space-y-6">
+     <li class="flex items-center space-x-4">
+      <img alt="Instagram" class="h-8 w-8 object-contain" src="1.png"/>
+      <a class="text-ferrari-red font-semibold text-lg hover:underline" href="https://www.instagram.com/ichls.nl/" rel="noopener noreferrer" target="_blank">
+       Instagram
+      </a>
+     </li>
+     <li class="flex items-center space-x-4">
+      <img alt="Spotify" class="h-8 w-8 object-contain" src="2.png"/>
+      <a class="text-ferrari-red font-semibold text-lg hover:underline" href="https://open.spotify.com/user/31n25d5srfixp3m64jycg6ezhjk4" rel="noopener noreferrer" target="_blank">
+       Spotify
+      </a>
+     </li>
+     <li class="flex items-center space-x-4">
+      <img alt="Roblox" class="h-8 w-8 object-contain" src="3.png"/>
+      <a class="text-ferrari-red font-semibold text-lg hover:underline" href="https://www.roblox.com/users/2428337436/profile" rel="noopener noreferrer" target="_blank">
+       Roblox
+      </a>
+     </li>
+    </ul>
+   </section>
+  </main>
+  <script>
+   const form = document.getElementById("nameForm");
+   const input = document.getElementById("nameInput");
+   const list = document.getElementById("nameList");
+
+   form.addEventListener("submit", () => {
+    const name = input.value.trim();
+    if (name) {
+     const li = document.createElement("li");
+     li.textContent = name;
+     list.appendChild(li);
+     input.value = "";
+    }
+   });
+  </script>
+ </body>
+</html>
